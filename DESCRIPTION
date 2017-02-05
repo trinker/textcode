@@ -1,0 +1,25 @@
+Package: textcode
+Title: Tools for Qualitative Text Coding
+Version: 0.0.1
+Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Description: Tools for assisting in qualitative text coding and analysis.  Tools
+    to: export text for qualitative coding, import coding schemes, and
+    reshape the imports into an analysis ready format.
+Depends:
+    R (>= 3.3.2)
+Imports:
+    hilight,
+    termco,
+    textclean,
+    textshape,
+    xtable
+Suggests:
+    testthat
+Date: 2017-02-05
+License: GPL-2
+LazyData: TRUE
+Roxygen: list(wrap = FALSE)
+BugReports: https://github.com/trinker/textcode/issues?state=open
+URL: https://github.com/trinker/textcode
+RoxygenNote: 5.0.1
